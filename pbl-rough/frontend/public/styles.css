@@ -1,0 +1,307 @@
+body {
+  overflow-x: hidden;
+}
+.navbar-nav {
+}
+.nav-item {
+}
+#gg,
+#dg,
+#pj,
+#rk {
+  background-color: #3fc1c9;
+}
+.homeh1 {
+  color: #3fc1c9;
+  font-family: "Roboto", sans-serif;
+}
+.homep {
+  font-family: "Roboto", sans-serif;
+}
+.logoimg {
+  margin-left: 47%;
+  margin-top: -50%;
+  max-width: 100%;
+}
+.logo2img {
+  margin-left: 40%;
+  margin-top: -20%;
+  max-width: 100%;
+}
+.workflowimg {
+  margin-top: -30%;
+  max-width: 70%;
+}
+.logo3img {
+  width: 40%;
+  height: 40%;
+  margin-left: 70%;
+  max-width: 100%;
+}
+.logo4img {
+  height: 50%;
+  width: 50%;
+  margin-left: -35%;
+  max-width: 100%;
+}
+.homeimg1 {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.container {
+  margin-top: 10%;
+  margin-left: -10%;
+}
+.container1 {
+  margin-top: 0;
+  margin-left: -10%;
+}
+#project {
+  padding-top: 10%;
+}
+#about {
+  padding-top: 10%;
+}
+#contact {
+  padding-top: 10%;
+}
+/* SignUp */
+
+#login {
+  height: 1000px;
+  margin-top: -40%;
+  margin-left: -30%;
+}
+@media only screen and (max-width: 600px) {
+  #login {
+    margin-top: -430px;
+    width: 400px;
+    height: 700px;
+    padding-left: 30px;
+    margin-left: 0px;
+  }
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 450px;
+  border: 1px solid #cbf1f5;
+  background-color: #cbf1f5;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login
+  .container
+  #login-row
+  #login-column
+  #login-box
+  #login-form
+  #register-link {
+  margin-top: -85px;
+}
+.log {
+  margin-top: 10%;
+}
+.logh3 {
+  padding-top: 8%;
+}
+.regh3 {
+  padding-top: 8%;
+}
+.signinheader {
+  margin-left: 45%;
+  margin-top: -15%;
+}
+/* Cards */
+.imgc {
+  height: 130px;
+  width: 50%;
+  border-radius: 70%;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+
+div [class^="col-"] {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.card {
+  transition: 0.5s;
+  cursor: pointer;
+  margin: 8%;
+}
+
+.card-title {
+  font-size: 15px;
+  transition: 1s;
+  cursor: pointer;
+  text-align: center;
+}
+.card-title i:hover {
+  transform: scale(1.25) rotate(100deg);
+  color: #18d4ca;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+.card-text {
+  height: 80px;
+  text-align: center;
+}
+
+.card::before,
+.card::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform 0.3s ease-out 0s;
+  background: rgba(255, 255, 255, 0.1);
+  content: "";
+  pointer-events: none;
+}
+.card::before {
+  transform-origin: left top;
+}
+.card::after {
+  transform-origin: right bottom;
+}
+.card:hover::before,
+.card:hover::after,
+.card:focus::before,
+.card:focus::after {
+  transform: scale3d(1, 1, 1);
+}
+/*Footer Contact us */
+.footer {
+  width: 100%;
+  /* Set the fixed height of the footer here */
+}
+.foot {
+  width: 100%;
+  padding-left: 30px;
+  padding-top: 0px;
+  height: 10%;
+  bottom: 0;
+}
+.padding {
+  padding-top: 30px;
+}
+/* Taller footer on small screens */
+@media (max-width: 34em) {
+  body {
+    margin-bottom: 500px;
+  }
+}
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: #48466d;
+  color: #bbb;
+}
+
+footer a {
+  color: #999;
+  text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #aaa;
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
+}
+
+footer .form-control {
+  background-color: #1f2022;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  border: none;
+  resize: none;
+  color: #d1d2d2;
+  padding: 0.7em 1em;
+}
+.fp {
+  font-size: 1rem;
+}
+
+.fhp {
+  margin-left: -10%;
+}
+.ficons {
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-left: 27%;
+}
+.fpa {
+  font-size: 1rem;
+  margin-left: 75%;
+}
+.fc {
+  font-size: 1rem;
+  margin-left: 75%;
+}
+@media only screen and (max-width: 600px) {
+  .footer {
+    position: relative;
+  }
+  .fhp {
+    margin-left: 0;
+  }
+  .ficons {
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-left: 0;
+  }
+  .fpa {
+    font-size: 1rem;
+    margin-left: 0;
+  }
+  .fc {
+    font-size: 1rem;
+    margin-left: 0;
+  }
+}
+
+/*Upload*/
+
+.camicon {
+  padding-left: 69%;
+  padding-top: 37%;
+}
+.fileicon {
+  padding-left: 170%;
+  padding-top: 37%;
+}
+.camh2 {
+  padding-left: 62%;
+  padding-top: 5%;
+}
+.fileh2 {
+  padding-left: 160%;
+  padding-top: 5%;
+}
+@media only screen and (max-width: 600px) {
+  .camicon {
+    padding-left: 42%;
+    padding-top: 20%;
+  }
+  .fileicon {
+    padding-left: 42%;
+    padding-top: 20%;
+  }
+  .camh2 {
+    padding-left: 22%;
+    padding-top: 5%;
+  }
+  .fileh2 {
+    padding-left: 22%;
+    padding-top: 5%;
+    padding-bottom: 30%;
+  }
+}
